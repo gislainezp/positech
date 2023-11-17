@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS-->
+    <link rel="stylesheet" href="padroes.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="shortcut icon" href="./img/logoVaioHeader.svg" type="image/x-icon">
+    <title>VAIO - Black Friday</title>
+</head>
+<body>
+    <header>
+        <div class="conteinerHeader">
+
+            <div class="logoHeader">
+                <img src="./img/logoVaioHeader.svg" alt="Vaio">
+            </div>
+            
+            <div class="menuHeader">
+                <ul>
+                    <li>notebooks</li>
+                    <li>acessórios</li>
+                    <li>suporte</li>
+                </ul>  
+            </div>
+            
+            <div class="itensDePerfilHeader">
+                <ul>
+                    <li><img src="./img/carrinhoDeComprasHeader.svg" alt="carrinho de compras"></li>
+                    <li><img src="./img/bonecoPerfilHeader.svg" alt="perfil"></li>
+                </ul>
+            </div>      
+
+        </div>
+        
+    </header>
+
+
+    <main>
+
+        <section class="cadastre">
+
+            <div class="imgBlackFridayVaio">
+                <img src="./img/blackFridayVaioMain.svg" alt="Black Friday Vaio">
+            </div>
+
+            <div class="formCadastro">
+
+                <fieldset>
+                    <legend>Cadastre-se e receba primeiro as ofertas da Black Friday</legend>
+        
+                    <form id="form" action="" method="POST" name="form">
+                        <input class="inputTexto requerido" type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                        <input class="inputTexto requerido" type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                        <input class="inputTexto requerido" type="tel" name="telefone" id="telefone" placeholder="Número do celular" required>
+
+                        <div class="politicaDePrivacidade">
+
+                            <input type="checkbox" name="" id="checkDadosForm">
+                            <label for="checkDadosForm">Utilizamos seus dados com a finalidade de orientar sobre produtos e demais informações pertinentes. Para maiores informações sobre a utilização dos seus dados consulte nossa <span>Política de Privacidade.</span> 
+                            </label>
+                        </div>
+
+                        <div class="botaoCadastrar">
+                            <button type="button" class="botao" onclick="validar()">Cadastrar</button>
+                        </div>
+                    </form>
+        
+                </fieldset>
+            </div>
+
+        </section>
+        
+        <section class="ofertasDisponiveis">
+            <div class="texto_ofertasDisponiveis">
+                <h1>Confira as ofertas disponíveis!</h1>
+                <p>A Black Friday VAIO é a oportunidade perfeita para adquirir um notebook ou tablet de alta performance com descontos incríveis. Seja para o trabalho ou estudos, ambos são dispositivos indispensáveis em nosso cotidiano. Você não estará apenas comprando um notebook ou tablet, mas também garantindo confiabilidade e desempenho superiores. Conhecida por sua excelência em tecnologia, a marca Japonesa VAIO conquistou a confiança de consumidores em todo o mundo. A escolha do modelo mais adequado para suas necessidades pode ser desafiadora em meio a tantas opções, no entanto, a Black Friday VAIO está repleta de ofertas para que você possa adquirir o seu produto a um preço justo. Aproveite para explorar todas as ofertas em nosso site. Boas compras!</p>
+            </div>
+            
+            <div class="img_ofertasDisponiveis">
+                <img src="./img/notebookAberto.svg" alt="notebook Vaio">
+            </div>
+        </section>
+
+
+        <section class="informativoPagamentos">
+            <div class="texto_informativoPagamentos">
+                <h2>Pague da sua maneira</h2>
+                <p>A VAIO® disponibiliza muitas formas de pagamento para sua comodidade.</p>
+            </div>
+            
+            <div class="conteiner_cards-informativoPagamento">
+
+                <div class="pague card1_informativoPagamento">
+                    <div class="pix img_informativoPagamentos">
+                        <img src="./img/pixMain.svg" alt="Pix">
+                    </div>
+                    <div class="descritivoPix-informativoPagamento">
+                        <p class="paragrafoEstilizado">Pix</p>
+                        <p>Ganhe desconto pagando à vista</p>
+                    </div>
+                </div>
+                
+                <div class="pague card2_informativoPagamento">
+                    <div class="cartoes img_informativoPagamentos">
+                        <img src="./img/cartaoMain.svg" alt="cartões">
+                    </div>
+                    <div class="descritivoCartoes-informativoPagamento">
+                        <p class="paragrafoEstilizado">Pague com dois cartões</p>
+                        <p>Em até 10x sem juros</p>
+                    </div>
+                </div>
+    
+                <div class="pague card3_informativoPagamento">
+                    <div class="nupay img_informativoPagamentos">
+                        <img src="./img/nuPayMain.svg" alt="nuPay">
+                    </div>
+                    <div class="descritivoNuPay-informativoPagamento">
+                        <p class="paragrafoEstilizado">Pague em até 15x sem juros</p>
+                        <p class="paragrafoDetalhes">*É necessário ser cliente nubank e ter limite disponível no valor total da compra</p>
+                    </div>
+                </div>
+                
+                <div class="pague card4_informativoPagamento">
+                    <div class="boleto img_informativoPagamentos">
+                        <img src="./img/boletoMain.svg" alt="boleto">
+                    </div>
+                    <div class="descritivoBoleto-informativoPagamento">
+                        <p class="paragrafoEstilizado">Boleto parcelado em até 24x*</p>
+                        <p class="paragrafoDetalhes">*Sujeito a análise de crédito. juros a partir de 1,99% a.m.</p>
+                    </div>
+                </div>
+                
+                <div class="pague card5_informativoPagamento">
+                    <div class="picpay img_informativoPagamentos">
+                        <img src="./img/picpayMain.svg" alt="picPay">
+                    </div>
+    
+                    <div class="descritivoPicPay-informativoPagamento">
+                        <p class="paragrafoEstilizado">PicPay</p>
+                        <p>Pague direto do seu celular</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="notebooksVaio">
+            <div class="img_notebooksVaio">
+                <img src="./img/notebookFechado.svg" alt="notebook Vaio">
+            </div>
+
+            <div class="texto_notebooksVaio">
+                <h3>Notebooks VAIO: Potencia para diversas necessidades:</h3>
+                <p>O processador de um notebook é o cérebro do seu dispositivo, por isso é muito importante que ele tenha a potência certa seja para o trabalho ou entretenimento. Na Black Friday VAIO você encontra modelos equipados com processadores Core i5 e i7 que são ideais para garantir um desempenho excepcional.</p>
+                <p>Oferecemos também a opção de processadores AMD que igualmente oferecem um excelente desempenho. Os processadores AMD são conhecidos por sua capacidade de lidar com tarefas intensivas e oferecer um desempenho gráfico notável. Se você é um entusiasta de jogos, criador de conteúdo ou profissional que demanda poder de processamento, os notebooks VAIO AMD são uma escolha sólida desta Black Friday. Eles não apenas fornecem a potência necessária, mas também a confiabilidade que você espera da marca VAIO. E o melhor de tudo?</p>
+                <p>Todos os modelos estão com os melhores descontos, fazendo a diferença no seu bolso. Confira nossa seleção!</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodapeConteiner">
+            <div class="rodapeItem item1_rodapeConteiner">
+                <div>
+                    <img src="./img/boletoFooter.svg" alt="boleto">
+                </div>
+                <div>
+                    <p class="uppercase">10% de desconto</p>
+                    <p>No Boleto Bancário</p>
+                </div>
+            </div>
+            
+            <div class="rodapeItem item2_rodapeConteiner">
+                <div>
+                    <img src="./img/cartaoFooter.svg" alt="cartões">
+                </div>
+                <div>
+                    <p class="uppercase">em até 10X s/ juros</p>
+                    <p>Para compras no Cartão</p>
+                </div>
+            </div>
+            
+            <div class="rodapeItem item3_rodapeConteiner">
+                <div>
+                    <img src="./img/bandeiraJapaoFooter.svg" alt="bandeira do Japão">
+                </div>
+                <div>
+                    <p class="uppercase">tecnologia japonesa</p>
+                    <p>Produzida no Brasil</p>
+                </div>
+            </div>
+
+            <div class="rodapeItem item4_rodapeConteiner">
+                <div>
+                    <img src="./img/siteSeguroFooter.svg" alt="site seguro">
+                </div>
+                <div>
+                    <p class="uppercase">ambiente seguro</p>
+                    <p>Compra 100% Protegida</p>
+                </div>
+            </div> 
+
+        </div>
+    </footer>
+
+    <script>
+        function validar(){
+            var nome = document.getElementById("nome");
+            var email = document.getElementById("email");
+            var telefone = document.getElementById("telefone");
+
+            if (nome.value == "") {
+                alert("Nome não informado");
+                nome.focus();
+                return;
+            }
+
+            if (email.value == "") {
+                alert("E-mail não informado");
+                email.focus();
+                return;
+            }
+
+            if (telefone.value == "") {
+                alert("Telefone não informado");
+                telefone.focus();
+                return;
+              }
+        }
+    </script>
+
+</body>
+</html>

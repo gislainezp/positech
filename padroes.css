@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #090909;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+header {
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 16px;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* Padrões de formulário */
+
+.formCadastro fieldset {
+  border: none;
+}
+
+.formCadastro form input:not(#checkDadosForm) {
+  width: 80%;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: #171717;
+  margin: 5px;
+  padding-left: 40px;
+}
+
+.formCadastro form input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #00a8ff;
+  color: #fff;
+}
+
+.formCadastro form input:active {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #00a8ff;
+  color: #fff;
+}
+
+.politicaDePrivacidade {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.politicaDePrivacidade label {
+  display: inline-block;
+  color: #767676;
+  font-size: 12px;
+  margin: 0 5px;
+  text-align: left;
+}
+
+.politicaDePrivacidade label span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.formCadastro button {
+  border-radius: 4px;
+  border: none;
+  background: #3952ec;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Padrão da seção 'Confira as ofertas disponíveis' */
+
+.ofertasDisponiveis {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Pacrões da seção 'Pague da sua maneira' */
+
+.texto_informativoPagamentos {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+.pague {
+  border: 1px solid #212121;
+  background: #171717;
+}
+
+.pague img {
+  width: 53.617px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.paragrafoEstilizado {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.paragrafoDetalhes {
+  color: #767676;
+  font-size: 11px;
+}
+
+/* Padrões de footer */
+footer {
+  background: #16171c;
+}
+
+.rodapeConteiner {
+  background: #16171c;
+}
+
+.rodapeConteiner img {
+  width: 57.006px;
+  height: 39.984px;
+}
+
+.rodapeConteiner .uppercase {
+  text-transform: uppercase;
+}
+
+.rodapeItem p {
+  margin: 3px 0;
+}

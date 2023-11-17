@@ -1,0 +1,356 @@
+@media screen and (min-width: 320px) {
+  h1,
+  h3 {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  /* Cabeçalho (min-width: 320px) */
+
+  .conteinerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  .menuHeader ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 1.5rem;
+  }
+
+  .itensDePerfilHeader ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  /* Seção 'Cadastre-se e receba primeiro as ofertas da Black Friday' e formulário (min-width: 320px) */
+
+  .cadastre {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  .imgBlackFridayVaio {
+    text-align: center;
+  }
+
+  .formCadastro {
+    text-align: center;
+  }
+
+  .formCadastro legend {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.048px;
+    margin: 1.5rem 0;
+  }
+
+  .politicaDePrivacidade {
+    margin: 1rem 0;
+  }
+
+  .formCadastro button {
+    width: 80%;
+    height: 30px;
+  }
+
+  /* Seção 'Confira as ofertas disponíveis' (min-width: 320px) */
+  .ofertasDisponiveis {
+    margin: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .img_ofertasDisponiveis {
+    text-align: center;
+  }
+
+  /* Seção 'Pague da sua maneira' (min-width: 320px) */
+
+  .informativoPagamentos {
+    margin: 2rem;
+  }
+
+  .conteiner_cards-informativoPagamento {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .pague div {
+    margin: 1rem;
+  }
+
+  /* Seção 'Notebooks VAIO: Potencia para diversas necessidades' (min-width: 320px) */
+
+  .img_notebooksVaio {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  .texto_notebooksVaio {
+    margin: 2rem;
+  }
+
+  .texto_notebooksVaio p {
+    margin: 1rem 0;
+  }
+
+  /* Seção do footer (min-width: 320px) */
+
+  .rodapeConteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: start;
+    justify-content: center;
+  }
+
+  .rodapeItem {
+    margin: 20px 10px;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 60%;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  /* Cabeçalho (min-width: 768px) */
+
+  .conteinerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .itensDePerfilHeader {
+    position: relative;
+    left: 15%;
+  }
+
+  /* Formulário (min-width: 768px) */
+
+  .politicaDePrivacidade {
+    margin: 1rem 6rem;
+  }
+
+  .botaoCadastrar {
+    margin: 0px 5rem;
+    text-align: initial;
+  }
+
+  .formCadastro button {
+    width: 300px;
+    height: 40px;
+  }
+
+  /* Seção 'Confira as ofertas disponíveis' (min-width: 768px) */
+
+  .ofertasDisponiveis {
+    margin: 4rem;
+  }
+
+  /* Seção 'Pague da sua maneira' (min-width: 768px) */
+
+  .conteiner_cards-informativoPagamento {
+    flex-direction: row;
+    margin: 2rem;
+  }
+
+  .pague {
+    width: 300px;
+  }
+
+  /* Seção 'Notebooks VAIO: Potencia para diversas necessidades' (min-width: 768px) */
+
+  .img_notebooksVaio img {
+    width: 50%;
+    margin: 3rem 0;
+  }
+
+  .texto_notebooksVaio {
+    margin: 0px 4rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .conteinerHeader {
+    justify-content: normal;
+    margin: 0 6rem;
+  }
+
+  .itensDePerfilHeader {
+    left: 50%;
+  }
+
+  /* Seção 'Cadastre-se e receba primeiro as ofertas da Black Friday' e formulário (min-width: 1024px) */
+
+  .cadastre {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .imgBlackFridayVaio {
+    margin: 2rem 5rem;
+    width: 45%;
+  }
+
+  .imgBlackFridayVaio img {
+    width: 70%;
+  }
+
+  .formCadastro {
+    text-align: start;
+    position: absolute;
+    left: 50%;
+  }
+
+  .formCadastro legend {
+    width: 400px;
+    font-size: 23px;
+  }
+
+  .formCadastro form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .formCadastro form input:not(#checkDadosForm) {
+    width: 370px;
+  }
+
+  .politicaDePrivacidade {
+    margin: 1rem 0;
+    width: 415px;
+  }
+
+  .botaoCadastrar {
+    margin: 0;
+  }
+
+  .formCadastro button {
+    width: 220px;
+    height: 40px;
+  }
+
+  /* Seção 'Confira as ofertas disponíveis' (min-width: 1024px) */
+
+  .ofertasDisponiveis {
+    margin: 2rem 5rem;
+
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .texto_ofertasDisponiveis {
+    width: 490px;
+  }
+
+  .img_ofertasDisponiveis {
+    text-align: center;
+  }
+
+  /* Seção 'Pague da sua maneira' (min-width: 1024px) */
+
+  .conteiner_cards-informativoPagamento {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .card1_informativoPagamento {
+    grid-area: 1 / 2 / 3 / 3;
+    display: grid;
+    place-items: start;
+    align-items: center;
+    align-content: center;
+  }
+
+  .card2_informativoPagamento {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .card3_informativoPagamento {
+    grid-area: 1 / 4 / 2 / 5;
+  }
+
+  .card4_informativoPagamento {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+
+  .card5_informativoPagamento {
+    grid-area: 2 / 4 / 3 / 5;
+  }
+
+  /* Seção 'Notebooks VAIO: Potencia para diversas necessidades' (min-width: 1024px) */
+
+  .notebooksVaio {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin: -25rem 5rem 2rem;
+    align-items: stretch;
+    flex-wrap: nowrap;
+  }
+
+  .img_notebooksVaio img {
+    width: 345px;
+    margin: 0;
+  }
+
+  .img_notebooksVaio p {
+    line-height: 32px;
+    letter-spacing: 1.024px;
+  }
+
+  .texto_notebooksVaio {
+    margin: 0 2rem;
+    width: 490px;
+  }
+
+  /* Seção do footer (min-width: 1024px) */
+
+  .rodapeConteiner {
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 4rem;
+    padding: 1rem 0 2rem;
+  }
+}
